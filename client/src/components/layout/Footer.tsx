@@ -1,5 +1,6 @@
 import { Link } from "wouter";
-import { Gem, Mail, Phone, MapPin, ChevronRight } from "lucide-react";
+import { Mail, Phone, MapPin, ChevronRight } from "lucide-react";
+import logoImg from "@assets/customer_logo_1771833953723.jpeg";
 
 export function Footer() {
   return (
@@ -10,8 +11,12 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="bg-white/10 p-2 rounded-lg">
-                <Gem className="w-6 h-6 text-white" />
+              <div className="bg-white p-1 rounded-lg h-10 w-10 overflow-hidden">
+                <img 
+                  src={logoImg} 
+                  alt="BAS Minerals Logo" 
+                  className="h-full w-full object-contain"
+                />
               </div>
               <span className="font-display font-bold text-xl tracking-tight text-white">
                 BAS MINERALS
@@ -64,15 +69,15 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-primary-foreground/70 text-sm">
                 <MapPin className="w-5 h-5 shrink-0 text-accent" />
-                <span>100 Industrial Parkway<br/>Suite 400<br/>Denver, CO 80202</span>
+                <span>Blue Area Islamabad</span>
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/70 text-sm">
                 <Phone className="w-5 h-5 shrink-0 text-accent" />
-                <span>+1 (800) 555-MINERAL</span>
+                <span>+92 3040294786</span>
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/70 text-sm">
                 <Mail className="w-5 h-5 shrink-0 text-accent" />
-                <span>info@basminerals.com</span>
+                <span>Basmineral1@gmail.com</span>
               </li>
             </ul>
           </div>

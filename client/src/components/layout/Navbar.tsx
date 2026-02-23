@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Gem } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import logoImg from "@assets/customer_logo_1771833953723.jpeg";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -39,8 +40,12 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary text-primary-foreground p-2 rounded-lg group-hover:bg-accent transition-colors">
-            <Gem className="w-6 h-6" />
+          <div className="relative h-10 w-10 overflow-hidden rounded-lg bg-white p-1">
+            <img 
+              src={logoImg} 
+              alt="BAS Minerals Logo" 
+              className="h-full w-full object-contain"
+            />
           </div>
           <span className={`font-display font-bold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-foreground md:text-white'} transition-colors`}>
             BAS MINERALS
