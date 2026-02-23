@@ -1,0 +1,120 @@
+Create a professional multi-page corporate website for a mineral supply and processing company called "BAS Minerals".
+
+Design Style:
+- Modern industrial corporate design
+- Clean layout
+- Dark purple and white color theme matching the logo
+- Mining and mineral industry visuals
+- Professional B2B appearance
+- Responsive for mobile and desktop
+
+Pages Required:
+
+1. HOME PAGE
+Headline:
+"Reliable Mineral Supply & Processing Solutions"
+
+Description:
+BAS Minerals is a trusted provider of industrial mineral supply and mineral processing solutions, serving mining, construction, ceramic, glass, and metallurgical industries. We deliver quality raw and processed minerals backed by technical expertise and reliable logistics.
+
+From mineral sourcing to advanced processing and engineering solutions, BAS Minerals supports clients across the full value chain.
+
+Core Services Section:
+- Mineral supply (raw & processed)
+- Mineral beneficiation & processing
+- Engineering and turnkey plant solutions
+
+Why BAS Minerals:
+- Consistent quality and specifications
+- Technical expertise in mineral processing
+- Efficient supply chain and logistics
+- Client-focused, reliable partnerships
+
+Add a strong CTA button:
+"Contact Us Today"
+
+------------------------------------------------
+
+2. ABOUT US PAGE
+
+Who We Are:
+BAS Minerals is a mineral supply and processing company committed to delivering high-quality mineral products and engineering solutions to global and regional markets.
+
+Mission:
+To supply and process minerals responsibly while delivering reliable, efficient, and innovative solutions that add value to our clients’ operations.
+
+Vision:
+To become a preferred partner in mineral supply and processing through quality, trust, and technical excellence.
+
+Values:
+- Quality & consistency
+- Safety & sustainability
+- Technical integrity
+- Long-term partnerships
+
+------------------------------------------------
+
+3. MINERAL SUPPLY PAGE
+
+Title: Industrial Mineral Supply
+
+Minerals We Supply:
+- Antimony (Coming Soon)
+- Copper (Coming Soon)
+- Granite
+- Silica Quartz
+- Feldspar
+- Other industrial minerals upon request
+
+Supply Capabilities:
+- Raw ore supply
+- Beneficiated and upgraded minerals
+- Custom sizing and grading
+- Bulk and packaged delivery
+
+Explain focus on consistent quality and reliable delivery.
+
+------------------------------------------------
+
+4. PROCESSING & ENGINEERING PAGE
+
+Mineral Processing Solutions:
+- Mineral beneficiation plants
+- Crushing, screening, and grinding solutions
+- Magnetic and gravity separation
+- Dry and wet processing systems
+- Waste recovery and tailings solutions
+
+Engineering & Turnkey Services:
+- Process design and flow sheet development
+- Equipment selection and supply
+- Plant installation and commissioning
+- Performance optimization and technical support
+
+Mention customized solutions from concept to commissioning.
+
+------------------------------------------------
+
+5. CONTACT PAGE
+
+Company Name: BAS Minerals
+Location: Blue Area Islamabad
+Phone: +92 3040294786
+Email: Basmineral1@gmail.com
+
+Add inquiry form fields:
+- Name
+- Company
+- Email
+- Phone
+- Message / Mineral Requirement
+
+Include professional footer with navigation and contact info.
+
+------------------------------------------------
+
+Extra Instructions:
+- Use industrial mining imagery
+- Add icons for services
+- Keep typography bold and corporate
+- Optimize for SEO keywords like mineral supply, mineral processing, industrial minerals.
