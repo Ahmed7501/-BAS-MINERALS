@@ -9,7 +9,7 @@ export default function Processing() {
   return (
     <PageWrapper>
       {/* Heavy machinery, gears, factory interior */}
-      <HeroHeader 
+      <HeroHeader
         title="Processing & Engineering"
         subtitle="Advanced refinement technologies and bespoke facility engineering."
         imageUrl="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?q=80&w=2000&auto=format&fit=crop"
@@ -19,7 +19,8 @@ export default function Processing() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col lg:flex-row gap-12 items-center mb-24">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">State-of-the-Art Refinement</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">State-of-the-Art Refinement</h2>
+              <div className="w-16 h-1 bg-accent rounded-full mb-6"></div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 BAS Minerals doesn't just supply raw materials; we transform them. Our processing facilities utilize the latest in comminution, separation, and thermal treatment technologies to achieve unparalleled purity and consistency.
               </p>
@@ -35,6 +36,7 @@ export default function Processing() {
 
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">Engineering Capabilities</h2>
+            <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-6"></div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -60,7 +62,7 @@ export default function Processing() {
                 desc: "Full-scale facility engineering and flowsheet optimization consulting."
               }
             ].map((cap, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -81,7 +83,8 @@ export default function Processing() {
 
       <section className="py-20 bg-card border-t border-border">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6">Optimize Your Operations</h2>
+          <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">Optimize Your Operations</h2>
+          <div className="w-16 h-1 bg-accent mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
             Leverage our processing engineering expertise to improve your yields and reduce operational costs.
           </p>

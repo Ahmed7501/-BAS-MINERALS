@@ -44,9 +44,9 @@ export default function Contact() {
       <section className="relative pt-32 pb-20 bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0">
           {/* modern abstract architecture/office */}
-          <img 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop" 
-            alt="Corporate Office" 
+          <img
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop"
+            alt="Corporate Office"
             className="w-full h-full object-cover opacity-20 mix-blend-luminosity"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-primary/50 to-primary" />
@@ -68,11 +68,12 @@ export default function Contact() {
       <section className="py-20 bg-background -mt-10 relative z-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-5 gap-12 max-w-6xl mx-auto">
-            
+
             {/* Contact Info */}
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl font-display font-bold text-foreground mb-6">Corporate Headquarters</h2>
+                <h2 className="text-2xl font-display font-bold text-foreground mb-4">Corporate Headquarters</h2>
+                <div className="w-16 h-1 bg-accent rounded-full mb-6"></div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -80,17 +81,17 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Address</h4>
-                      <p className="text-muted-foreground mt-1">100 Industrial Parkway, Suite 400<br/>Denver, CO 80202, United States</p>
+                      <p className="text-muted-foreground mt-1">100 Industrial Parkway, Suite 400<br />Denver, CO 80202, United States</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                       <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground mt-1">+1 (800) 555-MINERAL<br/>+1 (303) 555-0199</p>
+                      <p className="text-muted-foreground mt-1">+1 (800) 555-MINERAL<br />+1 (303) 555-0199</p>
                     </div>
                   </div>
 
@@ -100,7 +101,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground mt-1">info@basminerals.com<br/>sales@basminerals.com</p>
+                      <p className="text-muted-foreground mt-1">info@basminerals.com<br />sales@basminerals.com</p>
                     </div>
                   </div>
 
@@ -110,7 +111,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Hours</h4>
-                      <p className="text-muted-foreground mt-1">Mon-Fri: 8:00 AM - 6:00 PM (MST)<br/>Global Support: 24/7</p>
+                      <p className="text-muted-foreground mt-1">Mon-Fri: 8:00 AM - 6:00 PM (MST)<br />Global Support: 24/7</p>
                     </div>
                   </div>
                 </div>
@@ -119,13 +120,13 @@ export default function Contact() {
 
             {/* Contact Form */}
             <div className="lg:col-span-3">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-card rounded-2xl p-8 md:p-10 border border-border shadow-xl shadow-black/5"
               >
                 <h3 className="text-2xl font-display font-bold text-foreground mb-6">Send an Inquiry</h3>
-                
+
                 <Form {...form}>
                   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
@@ -193,10 +194,10 @@ export default function Contact() {
                         <FormItem>
                           <FormLabel className="text-foreground">Message / Requirements *</FormLabel>
                           <FormControl>
-                            <Textarea 
-                              placeholder="Please describe your material needs or engineering requirements..." 
+                            <Textarea
+                              placeholder="Please describe your material needs or engineering requirements..."
                               className="min-h-[150px] resize-none bg-background"
-                              {...field} 
+                              {...field}
                             />
                           </FormControl>
                           <FormMessage />
@@ -204,9 +205,9 @@ export default function Contact() {
                       )}
                     />
 
-                    <Button 
-                      type="submit" 
-                      size="lg" 
+                    <Button
+                      type="submit"
+                      size="lg"
                       className="w-full bg-primary hover:bg-primary/90 text-primary-foreground h-14 text-base"
                       disabled={mutation.isPending}
                     >
@@ -223,7 +224,7 @@ export default function Contact() {
                 </Form>
               </motion.div>
             </div>
-            
+
           </div>
         </div>
       </section>

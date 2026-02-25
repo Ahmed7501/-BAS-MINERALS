@@ -1,21 +1,24 @@
 import { Link } from "wouter";
 import { Mail, Phone, MapPin, ChevronRight } from "lucide-react";
-import logoImg from "@assets/customer_logo_1771833953723.jpeg";
+import logoImg from "@/assets/new_logo.png";
 
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground pt-16 pb-8 border-t border-primary/20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-12">
-          
+
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="bg-white p-1 rounded-lg h-10 w-10 overflow-hidden">
-                <img 
-                  src={logoImg} 
-                  alt="BAS Minerals Logo" 
-                  className="h-full w-full object-contain"
+              <div
+                className="relative h-14 w-14 flex items-center justify-center rounded-full shadow-md border border-white/10"
+                style={{ backgroundColor: '#230c38' }}
+              >
+                <img
+                  src={logoImg}
+                  alt="BAS Minerals Logo"
+                  className="w-[85%] h-auto object-contain"
                 />
               </div>
               <span className="font-display font-bold text-xl tracking-tight text-white">
@@ -39,7 +42,7 @@ export function Footer() {
                 { label: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-primary-foreground/70 hover:text-white transition-colors flex items-center gap-1 group text-sm"
                   >

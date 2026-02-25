@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import logoImg from "@assets/customer_logo_1771833953723.jpeg";
+import logoImg from "@/assets/new_logo.png";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
@@ -32,19 +32,21 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled || isMobileMenuOpen
-          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm py-3"
-          : "bg-transparent py-5"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen
+        ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm py-3"
+        : "bg-transparent py-5"
+        }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="relative h-10 w-10 overflow-hidden rounded-lg bg-white p-1">
-            <img 
-              src={logoImg} 
-              alt="BAS Minerals Logo" 
-              className="h-full w-full object-contain"
+        <Link href="/" className="flex items-center gap-3 group">
+          <div
+            className="relative h-14 w-14 flex items-center justify-center rounded-full shadow-md border border-white/10"
+            style={{ backgroundColor: '#230c38' }}
+          >
+            <img
+              src={logoImg}
+              alt="BAS Minerals Logo"
+              className="w-[85%] h-auto object-contain"
             />
           </div>
           <span className={`font-display font-bold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-foreground md:text-white'} transition-colors`}>
@@ -55,18 +57,17 @@ export function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
-            <Link 
-              key={link.href} 
+            <Link
+              key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-accent relative py-2 ${
-                location === link.href 
-                  ? "text-accent" 
-                  : isScrolled ? "text-foreground/80" : "text-foreground/80 md:text-white/90"
-              }`}
+              className={`text-sm font-medium transition-colors hover:text-accent relative py-2 ${location === link.href
+                ? "text-accent"
+                : isScrolled ? "text-foreground/80" : "text-foreground/80 md:text-white/90"
+                }`}
             >
               {link.label}
               {location === link.href && (
-                <motion.div 
+                <motion.div
                   layoutId="navbar-indicator"
                   className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent rounded-full"
                 />
@@ -99,12 +100,11 @@ export function Navbar() {
           >
             <nav className="flex flex-col px-4 py-6 gap-4">
               {NAV_LINKS.map((link) => (
-                <Link 
-                  key={link.href} 
+                <Link
+                  key={link.href}
                   href={link.href}
-                  className={`text-lg font-medium p-2 rounded-md transition-colors ${
-                    location === link.href ? "bg-primary/10 text-primary" : "text-foreground/80 hover:bg-muted"
-                  }`}
+                  className={`text-lg font-medium p-2 rounded-md transition-colors ${location === link.href ? "bg-primary/10 text-primary" : "text-foreground/80 hover:bg-muted"
+                    }`}
                 >
                   {link.label}
                 </Link>
