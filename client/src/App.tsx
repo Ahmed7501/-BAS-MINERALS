@@ -32,7 +32,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/minerals" component={MineralSupply} />
+          <Route path="/mineral-supply" component={MineralSupply} />
           <Route path="/processing" component={Processing} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />

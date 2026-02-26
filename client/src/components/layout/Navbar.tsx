@@ -8,7 +8,7 @@ import logoImg from "@/assets/new_logo.png";
 const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
-  { href: "/minerals", label: "Mineral Supply" },
+  { href: "/mineral-supply", label: "Mineral Supply" },
   { href: "/processing", label: "Processing & Engineering" },
 ];
 

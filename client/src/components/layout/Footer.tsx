@@ -37,7 +37,7 @@ export function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "About Us", href: "/about" },
-                { label: "Mineral Supply", href: "/minerals" },
+                { label: "Mineral Supply", href: "/mineral-supply" },
                 { label: "Processing & Engineering", href: "/processing" },
                 { label: "Contact", href: "/contact" },
               ].map((link) => (

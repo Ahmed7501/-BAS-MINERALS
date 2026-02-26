@@ -73,7 +73,7 @@ export default function Home() {
                 className="flex flex-col sm:flex-row gap-4"
               >
                 <Button size="lg" asChild className="rounded-full bg-accent hover:bg-accent/90 text-white px-8 h-14 text-base shadow-lg shadow-accent/20 transition-all hover:-translate-y-1">
-                  <Link href="/minerals">Explore Minerals</Link>
+                  <Link href="/mineral-supply">Explore Minerals</Link>
                 </Button>
                 <Button size="lg" asChild variant="outline" className="rounded-full bg-white/5 hover:bg-white/10 text-white border-white/20 hover:border-white/40 h-14 px-8 text-base backdrop-blur-sm transition-all hover:-translate-y-1">
                   <Link href="/processing">Our Processing Facilities</Link>
@@ -284,7 +284,7 @@ export default function Home() {
                 icon: Mountain,
                 title: "Mineral Supply",
                 desc: "High-purity raw materials sourced responsibly from world-class global deposits.",
-                link: "/minerals"
+                link: "/mineral-supply"
               },
               {
                 icon: Factory,
