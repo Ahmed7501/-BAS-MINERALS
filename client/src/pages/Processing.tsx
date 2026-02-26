@@ -29,7 +29,7 @@ export default function Processing() {
               </p>
             </div>
             <div className="lg:w-1/2 w-full grid grid-cols-2 gap-4">
-              <img src="https://pixabay.com/get/g804f4f1a189e0704c416b7745c1030efa72ddebd0437987a58d570119aab1aa546d88d867c6b116792a00579f4067034dd3d61a5a8b2bb4e8e603f4f39d08dd7_1280.jpg" alt="Processing Tech 1" className="rounded-xl object-cover h-64 w-full shadow-lg" />
+              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop" alt="Processing Tech 1" className="rounded-xl object-cover h-64 w-full shadow-lg" />
               <img src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800&auto=format&fit=crop" alt="Processing Tech 2" className="rounded-xl object-cover h-64 w-full shadow-lg mt-8" />
             </div>
           </div>
