@@ -57,9 +57,9 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-2xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Partner With Us</h1>
+            <h1 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Get in Touch</h1>
             <p className="text-lg text-primary-foreground/80">
-              Reach out to our specialized teams for inquiries regarding mineral supply, engineering consultation, or global logistics.
+              Whether you need mineral supply, processing solutions, or engineering support, our team is ready to assist you.
             </p>
           </motion.div>
         </div>
@@ -72,7 +72,7 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl font-display font-bold text-foreground mb-4">Corporate Headquarters</h2>
+                <h2 className="text-2xl font-display font-bold text-foreground mb-4">BAS Minerals</h2>
                 <div className="w-16 h-1 bg-accent rounded-full mb-6"></div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -80,8 +80,8 @@ export default function Contact() {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Address</h4>
-                      <p className="text-muted-foreground mt-1">100 Industrial Parkway, Suite 400<br />Denver, CO 80202, United States</p>
+                      <h4 className="font-semibold text-foreground">Office Location</h4>
+                      <p className="text-muted-foreground mt-1">Blue Area Islamabad</p>
                     </div>
                   </div>
 
@@ -91,7 +91,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground mt-1">+1 (800) 555-MINERAL<br />+1 (303) 555-0199</p>
+                      <p className="text-muted-foreground mt-1">+92 3040294786</p>
                     </div>
                   </div>
 
@@ -101,17 +101,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground mt-1">info@basminerals.com<br />sales@basminerals.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                      <Clock className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground">Hours</h4>
-                      <p className="text-muted-foreground mt-1">Mon-Fri: 8:00 AM - 6:00 PM (MST)<br />Global Support: 24/7</p>
+                      <p className="text-muted-foreground mt-1">Basmineral1@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -125,7 +115,7 @@ export default function Contact() {
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-card rounded-2xl p-8 md:p-10 border border-border shadow-xl shadow-black/5"
               >
-                <h3 className="text-2xl font-display font-bold text-foreground mb-6">Send an Inquiry</h3>
+                <h3 className="text-2xl font-display font-bold text-foreground mb-6">Send Us an Inquiry</h3>
 
                 <Form {...form}>
                   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
@@ -192,7 +182,7 @@ export default function Contact() {
                       name="message"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-foreground">Message / Requirements *</FormLabel>
+                          <FormLabel className="text-foreground">Message / Mineral Requirement *</FormLabel>
                           <FormControl>
                             <Textarea
                               placeholder="Please describe your material needs or engineering requirements..."
